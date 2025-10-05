@@ -12,7 +12,7 @@
     "url": "https://github.com/yourusername/teamwork-collaborator.git"
   },
   "keywords": ["collaboration", "productivity", "project management"],
-  "author": "Your Name",
+  "author": "Updated Author Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
