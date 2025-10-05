@@ -1,0 +1,21 @@
+{
+  "name": "teamwork-collaborator",
+  "version": "1.0.0",
+  "description": "A tool designed to enhance team productivity and streamline collaboration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/teamwork-collaborator.git"
+  },
+  "keywords": ["collaboration", "productivity", "project management"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}
