@@ -11,6 +11,11 @@ app.get('/', (req, res) => {
   res.send(`Welcome to the Teamwork Collaborator! The current date and time is: ${dateTime}`);
 });
 
+// Middleware for 404 errors
+app.use((req, res) => {
+  res.status(404).send('404: Not Found');
+});
+
 io.on('connection', (socket) => {
   console.log('A user connected');
 
