@@ -7,7 +7,8 @@ const server = http.createServer(app);
 const io = socketIo(server);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to Teamwork Collaborator!');
+  const dateTime = new Date().toLocaleString();
+  res.send(`Welcome to Teamwork Collaborator! Current date and time: ${dateTime}`);
 });
 
 io.on('connection', (socket) => {
